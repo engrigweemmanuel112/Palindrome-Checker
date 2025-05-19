@@ -27,12 +27,14 @@ li{
 }
 
 input{
-  color: #000;
+  color: black;
   background-color: #d4cbcb;
   padding: 10px;
+  font-size: 16px;
   margin: 20px;
   border-radius: 5px;
   margin-left: 450px;
+   border: 3px solid rgb(23, 193, 199);
  
   
 }
@@ -40,10 +42,14 @@ input{
 input::placeholder{
   font-size: large;
   color: rgb(99, 184, 184);
+ 
 }
 
 button{
    background-color: #d4cbcb;
   padding: 10px;
   border-radius: 5px;
+  cursor: pointer;
+  border: 3px solid rgb(23, 193, 199);
+  font-size: large;
 }
